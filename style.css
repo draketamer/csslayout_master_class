@@ -17,30 +17,12 @@ header {
   background-color: skyblue;
 }
 
-.father {
+.farther {
   display: grid;
   gap: 10px;
   height: 100vh;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
-
-.child {
-  background-color: tomato;
-  color: white;
-  font-size: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* .father {
-  display: grid;
-  gap: 10px;
-  height: 100vh;
-  grid-template-columns: repeat(6, 1fr);
-  grid-auto-rows: 1fr;
-  grid-auto-columns: 1fr;
-  grid-auto-flow: column;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  width: 100%;
 }
 
 .child {
@@ -50,8 +32,10 @@ header {
   text-align: center;
   font-size: 50px;
   color: black;
-} */
-/* 
+  max-width: 120px;
+  min-height: 150px;
+}
+
 .child:first-child {
   background-color: #a0a080;
 }
@@ -87,4 +71,4 @@ header {
 }
 .child:last-child {
   background-color: #d0a0d0;
-} */
+}
